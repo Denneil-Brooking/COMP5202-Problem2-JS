@@ -8,13 +8,13 @@ let num = parseInt = prompt("Please enter a number that is below 100", 00);
 if (num < 100)
     {
         for (let table = 0; table <= 12; table++)
-        console.log(num + "/" + table + " = " + num/table);
-
+        {console.log(num + "/" + table + " = " + num/table);
+    }
     }
     else 
         {
             console.log("The number you chose " + num + " is over 100");
             alert("The number you chose " + num + " is over 100");
         }
-
+    
 
